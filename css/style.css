@@ -207,3 +207,92 @@ input {
     font-weight: 400;
     font-size: 20px;
 }
+
+.popular-heading {
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.popular-title {
+    font-size: 38px;
+    font-weight: 400;
+    color: #040e27;
+    margin: 10px;
+}
+
+.popular-p {
+    font-size: 16px;
+    color: #7a838b;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.popular-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article img {
+    margin-bottom: 20px;
+    height: 280px;
+    margin-right: 10px;
+}
+
+.popular-container article {
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.popular-container article:hover {
+    transform: translateY(10px);
+}
+
+.popular-container article:before {
+    background: linear-gradient(to bottom, rgba(4, 14, 39, 0) 45%, rgba(4, 14, 39, 0.7)100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 98%;
+    height: 92.4%;
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.popular-image-info {
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    z-index: 1000;
+}
+
+.popular-image-info p {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.popular-image-info a {
+    background-color: #1EC6b6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 7px 12px;
+    color: white;
+    margin-left: 10px;
+}
+
+.popular-container article:hover .popular-image-info p {
+    color: #FF4A52;
+    transition: 0.3s;
+}
+
+.popular-container article:hover .popular-image-info a {
+    color: white;
+    background-color: #FF4A52;
+    transition: 0.3s;
+}

@@ -342,3 +342,87 @@ article img {
     font-weight: 400;
     margin-bottom: 10px;
 }
+
+.mail-form {
+    flex-direction: column;
+}
+
+.mail-form input {
+    width: 40vw;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mail-form button {
+    background-color: #FF4A52;
+    color: white;
+    padding: 16px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.video {
+    background-image: url(../images/video.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 130px 0;
+    margin: 15px 0;
+    position: relative;
+}
+
+.video::before {
+    position: absolute;
+    content: '';
+    background-color: #040E27;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    z-index: 1;
+}
+
+.video-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container h3 {
+    font-family: myfont, cursive;
+    font-weight: 400;
+    font-size: 7vw;
+    color: white;
+    margin-bottom: 30px;
+    z-index: 100;
+}
+
+.video-button {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #1ec6b6;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+
+.video-button:hover {
+    background-color: #FF4A52;
+}
+
+.video-button i {
+    color: white;
+}

@@ -426,3 +426,36 @@ article img {
 .video-button i {
     color: white;
 }
+
+footer {
+    background-color: #040E27;
+    padding: 60px 0;
+    justify-content: space-evenly;
+}
+
+.footer-info li {
+    color: #aab1b7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: myfont;
+}
+
+.links li {
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.links li a {
+    color: #aab1b7;
+    font-weight: 400;
+    font-family: myfont;
+}

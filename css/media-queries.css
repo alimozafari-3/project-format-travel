@@ -1,0 +1,20 @@
+@media (min-width: 576px) {
+    .search-icon {
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        background-color: red;
+        width: 45px;
+        right: 45px;
+    }
+    .drop-down-menu {
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        right: 0;
+        background-color: #1ec6c1;
+        width: 45px;
+        justify-content: center;
+        align-items: center;
+    }
+}

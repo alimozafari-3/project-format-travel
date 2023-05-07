@@ -18,3 +18,59 @@
         align-items: center;
     }
 }
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    nav li {
+        display: inline-block;
+    }
+    .drop-down-menu {
+        display: none !important;
+    }
+    .search-icon {
+        right: 0;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .search-icon {
+        width: 100px;
+    }
+    .search-form {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .search-bar {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .newsletter-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mail-form {
+        flex-direction: row;
+    }
+    .newsletter-text {
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width:575px) {}
+
+@media (min-width:1580px) {
+    .popular-container article {
+        margin: 30px;
+    }
+}
